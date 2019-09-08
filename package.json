@@ -1,0 +1,12 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "main": "src/game.js",
+  "author": "Dukagjin Surdulli <me@dukagj.in> (https://dukagj.in/)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table3": "^0.5.1",
+    "inquirer": "^7.0.0"
+  }
+}
