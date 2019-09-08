@@ -1,4 +1,5 @@
 const chalk = require('chalk');
+const clear = require('clear');
 const inquirer = require('inquirer');
 const Choice = require('../field/choice');
 
@@ -30,6 +31,8 @@ const startGame = (matrix, players) => {
 
     playerTurn = playerTurn === 1 ? 2 : 1;
     playerColor = playerTurn === 1 ? 'blue' : 'red';
+
+    clear();
 
     matrix.outputTable();
     matrix.checkWin();

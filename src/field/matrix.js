@@ -33,7 +33,7 @@ class Matrix {
         this.choices[i][1] &&
         this.choices[i][0].player.symbol === this.choices[i][1].player.symbol &&
         this.choices[i][2] &&
-        this.choices[i][1].player.symbol.player.symbol === this.choices[i][2].player.symbol
+        this.choices[i][1].player.symbol === this.choices[i][2].player.symbol
       ) {
         winMsg(this.choices[i][0].player.name);
       }
