@@ -2,7 +2,7 @@ class Player {
   name;
   symbol;
 
-  constructor(name, symbol, order) {
+  constructor(name, symbol) {
     this.name = name;
     this.symbol = this.validateSymbol(symbol);
   }
