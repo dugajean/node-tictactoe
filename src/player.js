@@ -1,12 +1,10 @@
 class Player {
   name;
   symbol;
-  order;
 
   constructor(name, symbol, order) {
     this.name = name;
     this.symbol = this.validateSymbol(symbol);
-    this.order = order;
   }
 
   validateSymbol(symbol) {

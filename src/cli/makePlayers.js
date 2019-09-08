@@ -35,8 +35,8 @@ const makePlayers = async () => {
   const answers = await inquirer.prompt(questions);
 
   try {
-    players[1] = new Player(answers.p1_name, answers.p1_symbol, 1);
-    players[2] = new Player(answers.p2_name, answers.p2_symbol, 2);
+    players[1] = new Player(answers.p1_name, answers.p1_symbol);
+    players[2] = new Player(answers.p2_name, answers.p2_symbol);
   } catch (err) {
     console.error(err);
     return makePlayers();
