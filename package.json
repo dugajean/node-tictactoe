@@ -4,6 +4,9 @@
   "main": "src/game.js",
   "author": "Dukagjin Surdulli <me@dukagj.in> (https://dukagj.in/)",
   "license": "MIT",
+  "scripts": {
+    "play": "node src/game.js"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
